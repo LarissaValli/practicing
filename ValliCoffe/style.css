@@ -147,3 +147,43 @@ hr {
 
 
 }
+
+.botao-container {
+    width: 100%;
+    max-width: 1120px;
+    margin: auto;
+    transform: translate("0, -50%");
+    
+}
+
+button {
+    border: none;
+    padding: 0.2rem;
+    border-radius: 0.5rem;
+    background: #a45a49;
+    text-align: center;
+}
+
+.receitas {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 1120px;
+    padding: 3rem 2rem;
+    margin: auto;
+
+}
+
+.receitas-cabeçalho {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+}
+
+.receitas-titulo {
+    font-family: montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff2e7;
+}
